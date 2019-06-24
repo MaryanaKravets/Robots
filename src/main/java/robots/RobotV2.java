@@ -3,9 +3,6 @@ package robots;
 public class RobotV2 extends RobotV1 {
     private String model;
 
-    RobotV2() {
-
-    }
 
     public RobotV2(int id, String name, int year, String model) {
         super(id, name, year);
@@ -13,12 +10,8 @@ public class RobotV2 extends RobotV1 {
 
     }
 
-    public String getModel() {
+    private String getModel() {
         return model;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
     }
 
     public void exclamRobot() {

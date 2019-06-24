@@ -1,17 +1,10 @@
 package robots;
 
-import plan.Planet;
-
-import java.util.Random;
-
 public class RobotV1 {
     private int id;
     private String name;
     private int year;
 
-    RobotV1() {
-
-    }
 
     public RobotV1(int id, String name, int year) {
         this.id = id;
@@ -19,29 +12,18 @@ public class RobotV1 {
         this.year = year;
     }
 
-    public int getId() {
+    private int getId() {
         return id;
     }
 
-    public String getName() {
+    private String getName() {
         return name;
     }
 
-    public int getYear() {
+    private int getYear() {
         return year;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setYear(int year) {
-        this.year = year;
-    }
 
     public void goRobot() {
         System.out.println("Robot goes");

@@ -9,8 +9,7 @@ public class Main {
         int i = random.nextInt(12) + 1;
         System.out.println("Random number: " + i);
         String string = "ABC";
-        Random random1 = new Random();
-        char symbol = string.charAt(random1.nextInt(string.length()));
+        char symbol = string.charAt(random.nextInt(string.length()));
         System.out.println("Random symbol: " + symbol);
 
         if (i >= 1 && i <= 3) {
@@ -36,15 +35,15 @@ public class Main {
         switch (symbol) {
             case 'A':
                 Planet pl = Planet.SEAS;
-                pl.whereYou(pl);
+                System.out.println("We at the planet of the " + pl.name());
                 break;
             case 'B':
                 Planet pl1 = Planet.WIND;
-                pl1.whereYou(pl1);
+                System.out.println("We at the planet of the " + pl1.name());
                 break;
             case 'C':
                 Planet pl2 = Planet.SUN;
-                pl2.whereYou(pl2);
+                System.out.println("We at the planet of the " + pl2.name());
                 break;
 
         }
