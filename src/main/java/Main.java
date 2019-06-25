@@ -12,7 +12,7 @@ public class Main {
         char symbol = string.charAt(random.nextInt(string.length()));
         System.out.println("Random symbol: " + symbol);
 
-        if (i >= 1 && i <= 3) {
+        if (i <= 3) {
             RobotV1 r1 = new RobotV1(234345, "Nexus", 1983);
             System.out.println(r1.toString());
             r1.goRobot();
