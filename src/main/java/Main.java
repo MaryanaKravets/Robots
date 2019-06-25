@@ -17,7 +17,7 @@ public class Main {
             System.out.println(r1.toString());
             r1.goRobot();
             r1.transfRobot(symbol);
-        } else if (i >= 4 && i <= 8) {
+        } else if (i <= 8) {
             RobotV2 r2 = new RobotV2(456378, "Carol", 1985, "RGB-1");
             System.out.println(r2.toString());
             r2.goRobot();
